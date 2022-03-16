@@ -3,6 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/navbar.js'
 import Footer from '../components/footer.js'
+import GameFrame from '../components/gameFrame.js';
 
 
 export default function Home() {
@@ -17,7 +18,19 @@ export default function Home() {
       <Navbar/>
 
       <main className={styles.main}>
-      
+        <div className="container-games row">
+                <h2 className="flow-text">Games</h2>
+                <GameFrame/>
+                <GameFrame/>
+                <GameFrame/>
+                <GameFrame/>
+                <GameFrame/>
+                <GameFrame/>
+                <GameFrame/>
+                <GameFrame/>
+                <GameFrame/>
+                <GameFrame/>
+            </div>
       </main>
 
       <Footer/>

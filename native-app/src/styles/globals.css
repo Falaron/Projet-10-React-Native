@@ -226,7 +226,6 @@ h2{
 }
 
 .page-footer{
-  margin-top: 50px;
   background-color: #343434 !important;
 }
 
@@ -381,11 +380,12 @@ h2{
   color: #8D8D8D !important;
 }
 
-.container-games, .container-articles {
+.container-games {
   border-radius: 1vh;
   background-color: #343434;
   color: #FFFFFF;
   padding: 2% !important;
+  width: 85%;
   position: relative;
 }
 
@@ -659,7 +659,6 @@ h2{
 }
 
 .left-part img {
-  width: 50%;
   border-radius: 1vh;
 }
 
